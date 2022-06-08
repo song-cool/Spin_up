@@ -7,30 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0B44B1A28503F3B00143F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B44B1928503F3B00143F92 /* AppDelegate.swift */; };
-		C0B44B1C28503F3B00143F92 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C0B44B1B28503F3B00143F92 /* GameScene.sks */; };
-		C0B44B1E28503F3B00143F92 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C0B44B1D28503F3B00143F92 /* Actions.sks */; };
-		C0B44B2028503F3B00143F92 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B44B1F28503F3B00143F92 /* GameScene.swift */; };
-		C0B44B2228503F3B00143F92 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B44B2128503F3B00143F92 /* GameViewController.swift */; };
-		C0B44B2528503F3B00143F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B44B2328503F3B00143F92 /* Main.storyboard */; };
-		C0B44B2728503F3B00143F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B44B2628503F3B00143F92 /* Assets.xcassets */; };
-		C0B44B2A28503F3B00143F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B44B2828503F3B00143F92 /* LaunchScreen.storyboard */; };
+		C0F907C928504308003F3759 /* SpinUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F907C828504308003F3759 /* SpinUpApp.swift */; };
+		C0F907CB28504308003F3759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F907CA28504308003F3759 /* ContentView.swift */; };
+		C0F907CD28504308003F3759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F907CC28504308003F3759 /* Assets.xcassets */; };
+		C0F907D028504308003F3759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F907CF28504308003F3759 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C0B44B1628503F3B00143F92 /* SpinUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B44B1928503F3B00143F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0B44B1B28503F3B00143F92 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C0B44B1D28503F3B00143F92 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		C0B44B1F28503F3B00143F92 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		C0B44B2128503F3B00143F92 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		C0B44B2428503F3B00143F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0B44B2628503F3B00143F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C0B44B2928503F3B00143F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0F907C528504308003F3759 /* SpinUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F907C828504308003F3759 /* SpinUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinUpApp.swift; sourceTree = "<group>"; };
+		C0F907CA28504308003F3759 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0F907CC28504308003F3759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0F907CF28504308003F3759 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C0B44B1328503F3B00143F92 /* Frameworks */ = {
+		C0F907C228504308003F3759 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,47 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C0B44B0D28503F3B00143F92 = {
+		C0F907BC28504308003F3759 = {
 			isa = PBXGroup;
 			children = (
-				C0B44B1828503F3B00143F92 /* SpinUp */,
-				C0B44B1728503F3B00143F92 /* Products */,
+				C0F907C728504308003F3759 /* SpinUp */,
+				C0F907C628504308003F3759 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C0B44B1728503F3B00143F92 /* Products */ = {
+		C0F907C628504308003F3759 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0B44B1628503F3B00143F92 /* SpinUp.app */,
+				C0F907C528504308003F3759 /* SpinUp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0B44B1828503F3B00143F92 /* SpinUp */ = {
+		C0F907C728504308003F3759 /* SpinUp */ = {
 			isa = PBXGroup;
 			children = (
-				C0B44B1928503F3B00143F92 /* AppDelegate.swift */,
-				C0B44B1B28503F3B00143F92 /* GameScene.sks */,
-				C0B44B1D28503F3B00143F92 /* Actions.sks */,
-				C0B44B1F28503F3B00143F92 /* GameScene.swift */,
-				C0B44B2128503F3B00143F92 /* GameViewController.swift */,
-				C0B44B2328503F3B00143F92 /* Main.storyboard */,
-				C0B44B2628503F3B00143F92 /* Assets.xcassets */,
-				C0B44B2828503F3B00143F92 /* LaunchScreen.storyboard */,
+				C0F907C828504308003F3759 /* SpinUpApp.swift */,
+				C0F907CA28504308003F3759 /* ContentView.swift */,
+				C0F907CC28504308003F3759 /* Assets.xcassets */,
+				C0F907CE28504308003F3759 /* Preview Content */,
 			);
 			path = SpinUp;
+			sourceTree = "<group>";
+		};
+		C0F907CE28504308003F3759 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0F907CF28504308003F3759 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0B44B1528503F3B00143F92 /* SpinUp */ = {
+		C0F907C428504308003F3759 /* SpinUp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0B44B2D28503F3B00143F92 /* Build configuration list for PBXNativeTarget "SpinUp" */;
+			buildConfigurationList = C0F907D328504308003F3759 /* Build configuration list for PBXNativeTarget "SpinUp" */;
 			buildPhases = (
-				C0B44B1228503F3B00143F92 /* Sources */,
-				C0B44B1328503F3B00143F92 /* Frameworks */,
-				C0B44B1428503F3B00143F92 /* Resources */,
+				C0F907C128504308003F3759 /* Sources */,
+				C0F907C228504308003F3759 /* Frameworks */,
+				C0F907C328504308003F3759 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,25 +84,25 @@
 			);
 			name = SpinUp;
 			productName = SpinUp;
-			productReference = C0B44B1628503F3B00143F92 /* SpinUp.app */;
+			productReference = C0F907C528504308003F3759 /* SpinUp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C0B44B0E28503F3B00143F92 /* Project object */ = {
+		C0F907BD28504308003F3759 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					C0B44B1528503F3B00143F92 = {
+					C0F907C428504308003F3759 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = C0B44B1128503F3B00143F92 /* Build configuration list for PBXProject "SpinUp" */;
+			buildConfigurationList = C0F907C028504308003F3759 /* Build configuration list for PBXProject "SpinUp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,65 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = C0B44B0D28503F3B00143F92;
-			productRefGroup = C0B44B1728503F3B00143F92 /* Products */;
+			mainGroup = C0F907BC28504308003F3759;
+			productRefGroup = C0F907C628504308003F3759 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0B44B1528503F3B00143F92 /* SpinUp */,
+				C0F907C428504308003F3759 /* SpinUp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C0B44B1428503F3B00143F92 /* Resources */ = {
+		C0F907C328504308003F3759 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B44B2528503F3B00143F92 /* Main.storyboard in Resources */,
-				C0B44B1C28503F3B00143F92 /* GameScene.sks in Resources */,
-				C0B44B2728503F3B00143F92 /* Assets.xcassets in Resources */,
-				C0B44B2A28503F3B00143F92 /* LaunchScreen.storyboard in Resources */,
-				C0B44B1E28503F3B00143F92 /* Actions.sks in Resources */,
+				C0F907D028504308003F3759 /* Preview Assets.xcassets in Resources */,
+				C0F907CD28504308003F3759 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C0B44B1228503F3B00143F92 /* Sources */ = {
+		C0F907C128504308003F3759 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B44B2028503F3B00143F92 /* GameScene.swift in Sources */,
-				C0B44B2228503F3B00143F92 /* GameViewController.swift in Sources */,
-				C0B44B1A28503F3B00143F92 /* AppDelegate.swift in Sources */,
+				C0F907CB28504308003F3759 /* ContentView.swift in Sources */,
+				C0F907C928504308003F3759 /* SpinUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C0B44B2328503F3B00143F92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0B44B2428503F3B00143F92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C0B44B2828503F3B00143F92 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0B44B2928503F3B00143F92 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		C0B44B2B28503F3B00143F92 /* Debug */ = {
+		C0F907D128504308003F3759 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		C0B44B2C28503F3B00143F92 /* Release */ = {
+		C0F907D228504308003F3759 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,19 +259,20 @@
 			};
 			name = Release;
 		};
-		C0B44B2E28503F3B00143F92 /* Debug */ = {
+		C0F907D428504308003F3759 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpinUp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4DC5UF7YA9;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,19 +288,20 @@
 			};
 			name = Debug;
 		};
-		C0B44B2F28503F3B00143F92 /* Release */ = {
+		C0F907D528504308003F3759 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpinUp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4DC5UF7YA9;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -345,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0B44B1128503F3B00143F92 /* Build configuration list for PBXProject "SpinUp" */ = {
+		C0F907C028504308003F3759 /* Build configuration list for PBXProject "SpinUp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0B44B2B28503F3B00143F92 /* Debug */,
-				C0B44B2C28503F3B00143F92 /* Release */,
+				C0F907D128504308003F3759 /* Debug */,
+				C0F907D228504308003F3759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0B44B2D28503F3B00143F92 /* Build configuration list for PBXNativeTarget "SpinUp" */ = {
+		C0F907D328504308003F3759 /* Build configuration list for PBXNativeTarget "SpinUp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0B44B2E28503F3B00143F92 /* Debug */,
-				C0B44B2F28503F3B00143F92 /* Release */,
+				C0F907D428504308003F3759 /* Debug */,
+				C0F907D528504308003F3759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C0B44B0E28503F3B00143F92 /* Project object */;
+	rootObject = C0F907BD28504308003F3759 /* Project object */;
 }
