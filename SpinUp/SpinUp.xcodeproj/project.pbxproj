@@ -13,6 +13,7 @@
 		C0F907D028504308003F3759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F907CF28504308003F3759 /* Preview Assets.xcassets */; };
 		C0F907D72850447C003F3759 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F907D62850447C003F3759 /* GameScene.swift */; };
 		C0F907D928504484003F3759 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F907D828504484003F3759 /* GameManager.swift */; };
+		C0F907DC28504742003F3759 /* SpinnerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F907DB28504742003F3759 /* SpinnerNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C0F907CF28504308003F3759 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0F907D62850447C003F3759 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C0F907D828504484003F3759 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		C0F907DB28504742003F3759 /* SpinnerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		C0F907C728504308003F3759 /* SpinUp */ = {
 			isa = PBXGroup;
 			children = (
+				C0F907DA28504736003F3759 /* Nodes */,
 				C0F907C828504308003F3759 /* SpinUpApp.swift */,
 				C0F907CA28504308003F3759 /* ContentView.swift */,
 				C0F907D828504484003F3759 /* GameManager.swift */,
@@ -71,6 +74,14 @@
 				C0F907CF28504308003F3759 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0F907DA28504736003F3759 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				C0F907DB28504742003F3759 /* SpinnerNode.swift */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			files = (
 				C0F907D72850447C003F3759 /* GameScene.swift in Sources */,
 				C0F907D928504484003F3759 /* GameManager.swift in Sources */,
+				C0F907DC28504742003F3759 /* SpinnerNode.swift in Sources */,
 				C0F907CB28504308003F3759 /* ContentView.swift in Sources */,
 				C0F907C928504308003F3759 /* SpinUpApp.swift in Sources */,
 			);

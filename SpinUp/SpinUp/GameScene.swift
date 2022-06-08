@@ -15,8 +15,9 @@ class GameScene: SKScene { //An object that organizes all of the active SpriteKi
     //MARK: - Properties
     let gameManager = GameManager.shared
     var motionManager: CMMotionManager?
-    
     var timer = Timer()
+    
+    let testNode = SpinnerNode()
 
     //MARK: - Initializer
     override init(size: CGSize) {
@@ -32,7 +33,10 @@ class GameScene: SKScene { //An object that organizes all of the active SpriteKi
     }
     //MARK: - LifeCycle
     override func update(_ currentTime: TimeInterval) {
-    
+        physicsWorld.gravity = CGVector(dx: 0, dy: 0)
+        
+//        let testAnimation = SKAction.sequence([SKAction.applyAngularImpulse(10, duration: 0.1)])
+//        testNode.run(testAnimation)
     }
     
     //Tells you when the scene is presented by a view.
@@ -47,7 +51,11 @@ class GameScene: SKScene { //An object that organizes all of the active SpriteKi
 //        let background = SKSpriteNode(imageNamed: "background")
         backgroundColor = .white
 
+        testNode.position = CGPoint(x: frame.midX, y: frame.midY)
+        self.addChild(testNode)
         
+        let testAnimation = SKAction.sequence([SKAction.applyAngularImpulse(10, duration: 0.5)])
+        testNode.run(testAnimation)
     
 //        let logoNode = SKSpriteNode(imageNamed: "Logo")
 //        logoNode.size = CGSize(width: 600, height: 400)
