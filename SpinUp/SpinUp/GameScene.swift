@@ -5,9 +5,9 @@
 //  Created by GOngTAE on 2022/04/22.
 //
 
-import SwiftUI
-import SpriteKit
 import CoreMotion
+import SpriteKit
+import SwiftUI
 
 
 class GameScene: SKScene { //An object that organizes all of the active SpriteKit content.
@@ -132,7 +132,7 @@ class GameScene: SKScene { //An object that organizes all of the active SpriteKi
         print("swipe gesture x : \(velocity.x)")
         
 
-        let testAnimation = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 100000, duration: 0.1)])
+        let testAnimation = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 10000, duration: 0.1)])
        
         
         
@@ -142,10 +142,10 @@ class GameScene: SKScene { //An object that organizes all of the active SpriteKi
 //        let subAnimation3 = SKAction.sequence([SKAction.wait(forDuration: 0.054) ,SKAction.applyAngularImpulse(velocity.x / 100000, duration: 0.1)])
 //        let subAnimation4 = SKAction.sequence([SKAction.wait(forDuration: 0.068) ,SKAction.applyAngularImpulse(velocity.x / 100000, duration: 0.1)])
         
-        let subAnimation = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 100000, duration: 0.12)])
-        let subAnimation2 = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 100000, duration: 0.18)])
-        let subAnimation3 = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 100000, duration: 0.24)])
-        let subAnimation4 = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 100000, duration: 0.3)])
+        let subAnimation = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 10000, duration: 0.12)])
+        let subAnimation2 = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 10000, duration: 0.18)])
+        let subAnimation3 = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 10000, duration: 0.24)])
+        let subAnimation4 = SKAction.sequence([SKAction.applyAngularImpulse(velocity.x / 10000, duration: 0.3)])
 
 
         

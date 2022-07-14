@@ -30,25 +30,33 @@ struct ContentView: View {
     
     var body: some View {
         
-        
-        ZStack {
-            SpriteView(scene: scene)
-                .zIndex(1)
-            
-            VStack {
-                Text("\(velocity)")
-                    .font(.title.bold())
-                    .foregroundColor(.black)
-                    
+        NavigationView{
+            ZStack {
+                SpriteView(scene: scene)
+                    .zIndex(1)
                 
-                Spacer()
+                VStack {
+                    Text("\(velocity)")
+                        .font(.title.bold())
+                        .foregroundColor(.black)
+                        
+                    
+                    Spacer()
+                    NavigationLink(destination: AccelerationTest(), label: {
+                        Text("TestView1")
+                    })
+                    .padding()
+                    NavigationLink(destination: HapticTest(), label: {
+                        Text("TestView2")
+                    })
+                    .padding()
+                }
+                .zIndex(2)
+                
+                
+                
             }
-            .zIndex(2)
-            
-            
-            
         }
-        
     }
 }
 

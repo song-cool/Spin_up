@@ -24,7 +24,7 @@ class SpinnerNode: SKSpriteNode {
         physicsBody?.allowsRotation = true
         physicsBody?.restitution = 0.2
         physicsBody?.friction = 0
-        physicsBody?.mass = 0.2
+        physicsBody?.mass = 0.8
     }
     
     required init?(coder aDecoder: NSCoder) {

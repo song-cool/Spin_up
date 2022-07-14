@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3E646E286E7A9200EFED07 /* AccelerationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E646D286E7A9200EFED07 /* AccelerationTest.swift */; };
+		2D3E6470286E7AB100EFED07 /* HapticTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E646F286E7AB100EFED07 /* HapticTest.swift */; };
 		C0F907C928504308003F3759 /* SpinUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F907C828504308003F3759 /* SpinUpApp.swift */; };
 		C0F907CB28504308003F3759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F907CA28504308003F3759 /* ContentView.swift */; };
 		C0F907CD28504308003F3759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F907CC28504308003F3759 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D3E646D286E7A9200EFED07 /* AccelerationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerationTest.swift; sourceTree = "<group>"; };
+		2D3E646F286E7AB100EFED07 /* HapticTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticTest.swift; sourceTree = "<group>"; };
 		C0F907C528504308003F3759 /* SpinUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F907C828504308003F3759 /* SpinUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinUpApp.swift; sourceTree = "<group>"; };
 		C0F907CA28504308003F3759 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D3E646C286E789300EFED07 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E646D286E7A9200EFED07 /* AccelerationTest.swift */,
+				2D3E646F286E7AB100EFED07 /* HapticTest.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		C0F907BC28504308003F3759 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +73,7 @@
 				C0F907DA28504736003F3759 /* Nodes */,
 				C0F907C828504308003F3759 /* SpinUpApp.swift */,
 				C0F907CA28504308003F3759 /* ContentView.swift */,
+				2D3E646C286E789300EFED07 /* Test */,
 				C0F907D828504484003F3759 /* GameManager.swift */,
 				C0F907D62850447C003F3759 /* GameScene.swift */,
 				C0F907CC28504308003F3759 /* Assets.xcassets */,
@@ -154,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3E6470286E7AB100EFED07 /* HapticTest.swift in Sources */,
 				C0F907D72850447C003F3759 /* GameScene.swift in Sources */,
 				C0F907D928504484003F3759 /* GameManager.swift in Sources */,
 				C0F907DC28504742003F3759 /* SpinnerNode.swift in Sources */,
+				2D3E646E286E7A9200EFED07 /* AccelerationTest.swift in Sources */,
 				C0F907CB28504308003F3759 /* ContentView.swift in Sources */,
 				C0F907C928504308003F3759 /* SpinUpApp.swift in Sources */,
 			);
@@ -287,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpinUp/Preview Content\"";
-				DEVELOPMENT_TEAM = 4DC5UF7YA9;
+				DEVELOPMENT_TEAM = LR5A5F6L75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpinUp/Preview Content\"";
-				DEVELOPMENT_TEAM = 4DC5UF7YA9;
+				DEVELOPMENT_TEAM = LR5A5F6L75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
